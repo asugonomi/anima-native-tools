@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1060" viewBox="0 0 1500 1060" role="img">
+<title>Anima Native Tools source-based diagram, not a screenshot</title>
+<rect width="1500" height="1060" fill="#101722"/>
+<text x="46" y="50" fill="#5ee0bf" font-size="18" font-family="Meiryo, Noto Sans CJK JP, sans-serif">ANIMA NATIVE TOOLS</text>
+<text x="46" y="104" fill="#eef4fc" font-size="39" font-family="Meiryo, Noto Sans CJK JP, sans-serif">ComfyUI · Node wiring</text>
+<text x="48" y="148" fill="#a8b8cc" font-size="22" font-family="Meiryo, Noto Sans CJK JP, sans-serif">Conceptual connections from ant/nodes.py / 必要な接続だけを示した概念図</text>
+<rect x="46" y="177" width="1408" height="72" rx="10" fill="#2c2a20" stroke="#f2cb70" stroke-width="2"/>
+<text x="65" y="207" fill="#f2cb70" font-size="20" font-family="Meiryo, Noto Sans CJK JP, sans-serif">SOURCE-BASED DIAGRAM / NOT A SCREENSHOT</text>
+<text x="65" y="234" fill="#f2cb70" font-size="18" font-family="Meiryo, Noto Sans CJK JP, sans-serif">コードに基づく説明図・実画面ではありません。</text>
+<rect x="46" y="292" width="278" height="126" rx="18" fill="#192432" stroke="#33445a" stroke-width="2"/>
+<text x="66" y="335" fill="#eef4fc" font-size="23" font-family="Meiryo, Noto Sans CJK JP, sans-serif">Anima model loader</text>
+<text x="66" y="378" fill="#83b8ff" font-size="23" font-family="Meiryo, Noto Sans CJK JP, sans-serif">MODEL + CLIP</text>
+<rect x="394" y="292" width="492" height="432" rx="18" fill="#192432" stroke="#33445a" stroke-width="2"/>
+<text x="418" y="340" fill="#5ee0bf" font-size="28" font-family="Meiryo, Noto Sans CJK JP, sans-serif">Anima Native Tools</text>
+<text x="418" y="391" fill="#a8b8cc" font-size="22" font-family="Meiryo, Noto Sans CJK JP, sans-serif">negpip</text>
+<text x="737" y="391" fill="#eef4fc" font-size="22" font-family="Meiryo, Noto Sans CJK JP, sans-serif">ON</text>
+<text x="418" y="434" fill="#a8b8cc" font-size="22" font-family="Meiryo, Noto Sans CJK JP, sans-serif">teacache</text>
+<text x="737" y="434" fill="#eef4fc" font-size="22" font-family="Meiryo, Noto Sans CJK JP, sans-serif">OFF</text>
+<text x="418" y="477" fill="#a8b8cc" font-size="22" font-family="Meiryo, Noto Sans CJK JP, sans-serif">threshold</text>
+<text x="737" y="477" fill="#eef4fc" font-size="22" font-family="Meiryo, Noto Sans CJK JP, sans-serif">0.15</text>
+<text x="418" y="520" fill="#a8b8cc" font-size="22" font-family="Meiryo, Noto Sans CJK JP, sans-serif">cache_start / end</text>
+<text x="737" y="520" fill="#eef4fc" font-size="22" font-family="Meiryo, Noto Sans CJK JP, sans-serif">0.0 / 1.0</text>
+<text x="418" y="563" fill="#a8b8cc" font-size="22" font-family="Meiryo, Noto Sans CJK JP, sans-serif">layer_replay</text>
+<text x="737" y="563" fill="#eef4fc" font-size="22" font-family="Meiryo, Noto Sans CJK JP, sans-serif">OFF</text>
+<text x="418" y="606" fill="#a8b8cc" font-size="22" font-family="Meiryo, Noto Sans CJK JP, sans-serif">blocks</text>
+<text x="737" y="606" fill="#eef4fc" font-size="22" font-family="Meiryo, Noto Sans CJK JP, sans-serif">3,4,5</text>
+<text x="418" y="649" fill="#a8b8cc" font-size="22" font-family="Meiryo, Noto Sans CJK JP, sans-serif">replay_start / end</text>
+<text x="737" y="649" fill="#eef4fc" font-size="22" font-family="Meiryo, Noto Sans CJK JP, sans-serif">0.5 / 0.6</text>
+<polyline points="324,357 394,357" fill="none" stroke="#83b8ff" stroke-width="4"/>
+<polygon points="394,357 382,350 382,364" fill="#83b8ff"/>
+<rect x="1004" y="292" width="450" height="100" rx="18" fill="#192432" stroke="#33445a" stroke-width="2"/>
+<text x="1028" y="337" fill="#eef4fc" font-size="25" font-family="Meiryo, Noto Sans CJK JP, sans-serif">KSampler · MODEL</text>
+<text x="1028" y="369" fill="#a8b8cc" font-size="20" font-family="Meiryo, Noto Sans CJK JP, sans-serif">Patched model</text>
+<polyline points="886,335 1004,335" fill="none" stroke="#83b8ff" stroke-width="4"/>
+<polygon points="1004,335 992,328 992,342" fill="#83b8ff"/>
+<rect x="1004" y="430" width="450" height="120" rx="18" fill="#192432" stroke="#33445a" stroke-width="2"/>
+<text x="1028" y="471" fill="#eef4fc" font-size="25" font-family="Meiryo, Noto Sans CJK JP, sans-serif">Text Encode · CLIP</text>
+<text x="1028" y="509" fill="#a8b8cc" font-size="21" font-family="Meiryo, Noto Sans CJK JP, sans-serif">Positive + negative prompts</text>
+<polyline points="886,490 1004,490" fill="none" stroke="#5ee0bf" stroke-width="4"/>
+<polygon points="1004,490 992,483 992,497" fill="#5ee0bf"/>
+<rect x="1004" y="624" width="450" height="144" rx="18" fill="#192432" stroke="#33445a" stroke-width="2"/>
+<text x="1028" y="668" fill="#eef4fc" font-size="27" font-family="Meiryo, Noto Sans CJK JP, sans-serif">FaceDetailer</text>
+<text x="1028" y="709" fill="#eef4fc" font-size="22" font-family="Meiryo, Noto Sans CJK JP, sans-serif">Same MODEL + CLIP</text>
+<text x="1028" y="747" fill="#a8b8cc" font-size="21" font-family="Meiryo, Noto Sans CJK JP, sans-serif">Same conditioning</text>
+<polyline points="914,335 948,335 948,679 1004,679" fill="none" stroke="#83b8ff" stroke-width="4"/>
+<polygon points="1004,679 992,672 992,686" fill="#83b8ff"/>
+<polyline points="914,490 930,490 930,722 1004,722" fill="none" stroke="#5ee0bf" stroke-width="4"/>
+<polygon points="1004,722 992,715 992,729" fill="#5ee0bf"/>
+<polyline points="1228,550 1228,624" fill="none" stroke="#f2cb70" stroke-width="4"/>
+<polygon points="1228,624 1221,612 1235,612" fill="#f2cb70"/>
+<text x="1060" y="595" fill="#f2cb70" font-size="18" font-family="Meiryo, Noto Sans CJK JP, sans-serif">CONDITIONING</text>
+<text x="395" y="777" fill="#a8b8cc" font-size="20" font-family="Meiryo, Noto Sans CJK JP, sans-serif">MODEL / CLIP outputs must be routed onward.</text>
+<rect x="46" y="824" width="1408" height="192" rx="18" fill="#192432" stroke="#33445a" stroke-width="2"/>
+<text x="70" y="865" fill="#5ee0bf" font-size="22" font-family="Meiryo, Noto Sans CJK JP, sans-serif">CONNECTION RULES / 接続の要点</text>
+<text x="70" y="906" fill="#eef4fc" font-size="22" font-family="Meiryo, Noto Sans CJK JP, sans-serif">Use the output MODEL and CLIP for both the main pass and the detail pass.</text>
+<text x="70" y="943" fill="#a8b8cc" font-size="21" font-family="Meiryo, Noto Sans CJK JP, sans-serif">補正側だけ別のモデルや条件付けに戻さない。追加の画像・VAE等の接続は省略。</text>
+<text x="70" y="983" fill="#f2cb70" font-size="21" font-family="Meiryo, Noto Sans CJK JP, sans-serif">Conceptual only: FaceDetailer / real-model generation remain unverified.</text>
+</svg>
